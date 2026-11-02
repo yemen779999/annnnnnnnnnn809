@@ -1,0 +1,245 @@
+{
+  "users": [
+    {
+      "id": "usr_1793585141509_xb7zah",
+      "email": "test_runner_1793585141401@test.local",
+      "passwordHash": "$2b$10$bB08JHJbEH.JuYXJgXGJHeAn/Vg4CKkULly9dI32kICtF91ibApDC",
+      "name": "Test Runner",
+      "role": "user",
+      "createdAt": "2026-11-02T02:05:41.509Z",
+      "updatedAt": "2026-11-02T02:05:41.509Z"
+    },
+    {
+      "id": "usr_1793585141603_3iupai",
+      "email": "login_test_1793585141510@test.local",
+      "passwordHash": "$2b$10$UoLw/1ER9NvZTWck6M96Q.RfwQE7m36ujPk7aKkkxvsRUPjGmm1da",
+      "name": "Login Tester",
+      "role": "user",
+      "createdAt": "2026-11-02T02:05:41.603Z",
+      "updatedAt": "2026-11-02T02:05:41.603Z"
+    },
+    {
+      "id": "usr_1793585141879_jg9c90",
+      "email": "user_a_1793585141789@test.local",
+      "passwordHash": "$2b$10$LEROHLiknaVA5cLnCfmBreIhARcLK0OHRwuMgHOluit6r2X34XfOO",
+      "name": "User A",
+      "role": "user",
+      "createdAt": "2026-11-02T02:05:41.879Z",
+      "updatedAt": "2026-11-02T02:05:41.879Z"
+    },
+    {
+      "id": "usr_1793585141971_lxh08i",
+      "email": "user_b_1793585141789@test.local",
+      "passwordHash": "$2b$10$T4yerE16TDyI8eBTaG8sFuJCXfeVgzQN0x1LdqCXA/RkLTU2rHghW",
+      "name": "User B",
+      "role": "user",
+      "createdAt": "2026-11-02T02:05:41.971Z",
+      "updatedAt": "2026-11-02T02:05:41.971Z"
+    },
+    {
+      "id": "usr_1793585393361_j45xr3",
+      "email": "test_runner_1793585393268@test.local",
+      "passwordHash": "$2b$10$j1x736ztOz1NAa8oQ4.3Pu5xgZYkGikxCafGHETzu9ZZvQAA2DugC",
+      "name": "Test Runner",
+      "role": "user",
+      "createdAt": "2026-11-02T02:09:53.361Z",
+      "updatedAt": "2026-11-02T02:09:53.361Z"
+    },
+    {
+      "id": "usr_1793585393462_rk5484",
+      "email": "login_test_1793585393362@test.local",
+      "passwordHash": "$2b$10$Wd7mEDIiaFYph.cFrgCMCuNye3OAHyljN.h.1ERHM7e9LeZPOHmt.",
+      "name": "Login Tester",
+      "role": "user",
+      "createdAt": "2026-11-02T02:09:53.462Z",
+      "updatedAt": "2026-11-02T02:09:53.462Z"
+    },
+    {
+      "id": "usr_1793585393765_iirz45",
+      "email": "user_a_1793585393667@test.local",
+      "passwordHash": "$2b$10$jVcHtvOhLV7lQA49/xIy4.5mu8PzZGBhB8M9KgWPrEyf6Fl1EwQhu",
+      "name": "User A",
+      "role": "user",
+      "createdAt": "2026-11-02T02:09:53.765Z",
+      "updatedAt": "2026-11-02T02:09:53.765Z"
+    },
+    {
+      "id": "usr_1793585393866_6v5gn0",
+      "email": "user_b_1793585393667@test.local",
+      "passwordHash": "$2b$10$pJ8w5uKTehNH8zab4IyXTu1ky2hIJFWwE6E2QA5HjLtF7TXqcMizi",
+      "name": "User B",
+      "role": "user",
+      "createdAt": "2026-11-02T02:09:53.866Z",
+      "updatedAt": "2026-11-02T02:09:53.866Z"
+    },
+    {
+      "id": "usr_1793585409992_y2jb6b",
+      "email": "creator_1793585409638@studio.ai",
+      "passwordHash": "$2b$10$W0uTyDJ1GL1osHoQOL1CVun2k6S0k4eUG.do99WRnF42iZ5kf9tL6",
+      "name": "Studio Creator",
+      "role": "user",
+      "createdAt": "2026-11-02T02:10:09.992Z",
+      "updatedAt": "2026-11-02T02:10:09.992Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_1793585410189_jq9ms8",
+      "ownerId": "usr_1793585409992_y2jb6b",
+      "title": "First User Project",
+      "type": "prompt",
+      "designTokens": {},
+      "assets": {},
+      "code": "export default function Page() { return <h1>Hello</h1>; }",
+      "qualityScore": 92,
+      "createdAt": "2026-11-02T02:10:10.189Z",
+      "updatedAt": "2026-11-02T02:10:10.189Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_1793585410190_3cyp63",
+      "userId": "usr_1793585409992_y2jb6b",
+      "action": "SAVE_PROJECT",
+      "metadata": {
+        "projectId": "prj_1793585410189_jq9ms8",
+        "title": "First User Project"
+      },
+      "timestamp": "2026-11-02T02:10:10.190Z"
+    },
+    {
+      "id": "log_1793585409993_0zy7ap",
+      "userId": "usr_1793585409992_y2jb6b",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "creator_1793585409638@studio.ai",
+        "role": "user"
+      },
+      "timestamp": "2026-11-02T02:10:09.993Z"
+    },
+    {
+      "id": "log_1793585398949_3trgzo",
+      "action": "AI_CHAT_MODIFICATION",
+      "metadata": {
+        "instruction": "Change theme to dark",
+        "source": "fallback"
+      },
+      "timestamp": "2026-11-02T02:09:58.949Z"
+    },
+    {
+      "id": "log_1793585393867_hkp72b",
+      "userId": "usr_1793585393866_6v5gn0",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "user_b_1793585393667@test.local",
+        "role": "user"
+      },
+      "timestamp": "2026-11-02T02:09:53.867Z"
+    },
+    {
+      "id": "log_1793585393766_es0yga",
+      "userId": "usr_1793585393765_iirz45",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "user_a_1793585393667@test.local",
+        "role": "user"
+      },
+      "timestamp": "2026-11-02T02:09:53.766Z"
+    },
+    {
+      "id": "log_1793585393562_7dibpy",
+      "userId": "usr_1793585393462_rk5484",
+      "action": "USER_LOGGED_IN",
+      "metadata": {
+        "email": "login_test_1793585393362@test.local"
+      },
+      "timestamp": "2026-11-02T02:09:53.562Z"
+    },
+    {
+      "id": "log_1793585393462_vjjjyr",
+      "userId": "usr_1793585393462_rk5484",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "login_test_1793585393362@test.local",
+        "role": "user"
+      },
+      "timestamp": "2026-11-02T02:09:53.462Z"
+    },
+    {
+      "id": "log_1793585393362_ojo3ky",
+      "userId": "usr_1793585393361_j45xr3",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "test_runner_1793585393268@test.local",
+        "role": "user"
+      },
+      "timestamp": "2026-11-02T02:09:53.362Z"
+    },
+    {
+      "id": "log_1793585152593_c1p4sc",
+      "action": "EXPORT_ZIP_SUCCESS",
+      "metadata": {
+        "title": "Linear_Clone",
+        "sizeBytes": 3613
+      },
+      "timestamp": "2026-11-02T02:05:52.593Z"
+    },
+    {
+      "id": "log_1793585148322_i4iqz5",
+      "action": "ANALYZE_PRESET_USED",
+      "metadata": {
+        "preset": "linear"
+      },
+      "timestamp": "2026-11-02T02:05:48.322Z"
+    },
+    {
+      "id": "log_1793585141971_dabqcx",
+      "userId": "usr_1793585141971_lxh08i",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "user_b_1793585141789@test.local",
+        "role": "user"
+      },
+      "timestamp": "2026-11-02T02:05:41.971Z"
+    },
+    {
+      "id": "log_1793585141880_5lftwb",
+      "userId": "usr_1793585141879_jg9c90",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "user_a_1793585141789@test.local",
+        "role": "user"
+      },
+      "timestamp": "2026-11-02T02:05:41.880Z"
+    },
+    {
+      "id": "log_1793585141697_kf88vm",
+      "userId": "usr_1793585141603_3iupai",
+      "action": "USER_LOGGED_IN",
+      "metadata": {
+        "email": "login_test_1793585141510@test.local"
+      },
+      "timestamp": "2026-11-02T02:05:41.697Z"
+    },
+    {
+      "id": "log_1793585141604_c2zqtt",
+      "userId": "usr_1793585141603_3iupai",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "login_test_1793585141510@test.local",
+        "role": "user"
+      },
+      "timestamp": "2026-11-02T02:05:41.604Z"
+    },
+    {
+      "id": "log_1793585141510_mzay03",
+      "userId": "usr_1793585141509_xb7zah",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "test_runner_1793585141401@test.local",
+        "role": "user"
+      },
+      "timestamp": "2026-11-02T02:05:41.510Z"
+    }
+  ]
+}

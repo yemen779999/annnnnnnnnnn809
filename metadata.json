@@ -1,0 +1,7 @@
+{
+  "name": "WebCraft AI Studio",
+  "description": "Production-grade AI Website Cloner, Prompt-to-Site Builder, and Reverse-Engineering Studio with real-time sandbox, code editor, user accounts, and ZIP export.",
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

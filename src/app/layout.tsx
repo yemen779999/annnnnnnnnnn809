@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "WebCraft AI Studio — Production Website Cloner & AI Builder",
+  description: "Production-grade AI Website Cloner, Prompt-to-Site Builder, and Reverse-Engineering Studio with real-time sandbox, code editor, user accounts, and ZIP export.",
+  openGraph: {
+    title: "WebCraft AI Studio — Production Website Cloner & AI Builder",
+    description: "Production-grade AI Website Cloner, Prompt-to-Site Builder, and Reverse-Engineering Studio with real-time sandbox, code editor, user accounts, and ZIP export.",
+  },
 };
 
 export default function RootLayout({
